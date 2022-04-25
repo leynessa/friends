@@ -15,6 +15,7 @@
   <tbody>
     <% @friends.each do |friend| %>
       <tr>
+        <td><%= friend.user_id %></td>
         <td><%= friend.first_name %></td>
         <td><%= friend.last_name %></td>
         <td><%= friend.email %></td>
